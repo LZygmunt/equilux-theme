@@ -649,6 +649,24 @@ StScrollBar {
     border-bottom-style: solid;
   }
 
+  .quick-toggle.button {
+    color: $button_fg_color;
+  }
+
+  .quick-toggle.button:checked,
+  .quick-toggle-arrow:checked {
+    color: $blue_200;
+  }
+
+  .quick-toggle-arrow {
+    border-color: $button_fg_color;
+    color: $button_fg_color;
+    border-radius: 0;
+    background-color: transparent;
+  }
+  .quick-toggle-arrow:checked {
+    border-color: $blue_200;
+  }
 
 // Background menu
 .background-menu { -boxpointer-gap: 4px; -arrow-rise: 0; }
@@ -1732,7 +1750,6 @@ StScrollBar {
     border-radius: $material_radius;
     color: $fg_color;
     background-color: $popup_bg_color;
-    border: none;
     box-shadow: $shadow_2;
     &:hover { background-color: $popup_bg_color; }
     &:focus { background-color: $popup_bg_color; }
