@@ -560,6 +560,7 @@ StScrollBar {
 
 .popup-menu {
   min-width: 200px;
+  border-radius: 36px !important;
 
   .popup-menu-arrow { } //defined globally in the TOP BAR
   .popup-sub-menu {
@@ -567,7 +568,7 @@ StScrollBar {
     box-shadow: $shadow_0;
   }
 
-  .popup-menu-content { padding: 8px 0; }
+  .popup-menu-content { padding: 16px; }
   .popup-menu-item {
     // min-height: $menuitem_size - 4px * 2;
     spacing: 8px;
