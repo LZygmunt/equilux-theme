@@ -1747,6 +1747,7 @@ StScrollBar {
     width: 34em;
     min-height: $menuitem_size * 2;
     margin: 5px;
+    border-color: transparent;
     border-radius: $material_radius;
     color: $fg_color;
     background-color: $popup_bg_color;

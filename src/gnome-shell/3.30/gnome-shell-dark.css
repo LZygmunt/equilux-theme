@@ -2213,10 +2213,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   width: 34em;
   min-height: 64px;
   margin: 5px;
+  border-color: transparent;
   border-radius: 8px;
   color: #bebebe;
   background-color: #414141;
-  border: 1px solid blue;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
 }
 
@@ -2235,8 +2235,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .notification-banner .notification-content {
   padding: 5px;
   spacing: 5px;
-  outline: 2px solid green;
-  width: 400px;
 }
 
 .notification-banner .secondary-icon {
@@ -2281,7 +2279,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   font-size: 1em;
   font-weight: bold;
   height: 1.6em;
-  outline: 2px solid red;
+  width: 1.6em;
   -shell-counter-overlap-x: 3px;
   -shell-counter-overlap-y: 3px;
   background-color: #5a5a5a;
@@ -2953,7 +2951,6 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #LookingGlassDialog {
-  outline: 2px solid green;
   background-color: #414141;
   spacing: 4px;
   padding: 0;
